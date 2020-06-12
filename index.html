@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery課題</title>
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style_kadai1_kadai2.css">
+    <link rel="stylesheet" href="css/style_kadai3.css">
+</head>
+<body>
+    <div id="content_wrap">
+        <h1>jQuery課題</h1>
+        <section>
+            <h2>課題１↓mouseover</h2>
+            <p><span id="mouseover">ここ</span>にマウスカーソルをあてるとリストが表示されます。</p>
+            <ul id="mouseover-list">
+                <li>ドリトス</li>
+                <li>暴君ハバネロ</li>
+                <li>ハリボー</li>
+                <li>パイの実</li>
+                <li>チップスター</li>
+            </ul>
+        </section>
+        <section>
+            <h2>課題２↓checkbox</h2>
+            <p>食べたいおやつ<br>
+            		<input type="checkbox" name="snack" value="doritos">ドリトス
+            		<input type="checkbox" name="snack" value="habanero">暴君ハバネロ
+            		<input type="checkbox" name="snack" value="haribo">ハリボー
+            		<input type="checkbox" name="snack" value="painomi">パイの実
+            		<input type="checkbox" name="snack" value="chipstar">チップスター
+            </p>
+
+                <img id="doritos" class="image-wrap" src="images/doritos.jpg" alt="メキシカンなスナック">
+                <img id="habanero" class="image-wrap" src="images/habanero.jpg" alt="辛すぎ">
+                <img id="haribo" class="image-wrap" src="images/haribo.png" alt="食べたことない">
+                <img id="painomi" class="image-wrap" src="images/painomi.jpg" alt="チョコがおいしい">
+                <img id="chipstar" class="image-wrap" src="images/chipstar.jpg" alt="しょっぱいけど好き">
+
+        </section>
+        <section>
+            <h2>課題３↓モーダルウィンドウ</h2>
+            <div id="file-data"></div>
+            <input type="button" class="file-read-btn-1" value="ファイル読み込み１">
+            <input type="button" class="file-read-btn-2" value="ファイル読み込み２">
+            <br/>
+            <div id="text"></div>
+        </section>
+
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<!-- ↓ここの下にjQueryUIのファイルを読み込む処理を記述する -->
+<script type="text/javascript"
+src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="js/kadai1_kadai2/mouseover.js"></script>
+<script type="text/javascript" src="js/kadai1_kadai2/checkbox.js"></script>
+<script src="js/kadai3/modal.js"></script>
+</html>
